@@ -4,8 +4,15 @@ Date: 22/02/2025
 File Name: styles.css
 */
 
+/* CSS reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body{ /* Add the body selector */
-    background-color: #ccc; /* Set the background colour */    
+    background-color: #000; /* Set the background colour */    
 } /* Closing brace for  the body selector */
 
 header{ /* Add the header selector */
@@ -24,6 +31,38 @@ main{
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
+}
+
+#weights, #cardio, #training { 
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercises{ 
+    clear: left;
+    border-top: #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt{ 
+    font-weight: bold;
+}
+
+#exercises dd{ 
+    padding: 0.5% 1% 2% 0;
+}
+
+#contact{
+    align-content: center;   
+    text-align: center;
+}
+
+#contact a{
+    color: #666600;
+    text-decoration: none;
 }
 
 footer p{ 
@@ -46,7 +85,9 @@ nav ul{ /* add the ul selector nested within the a nav element */
 
 nav li{ /* add li selectoir nested within the nav element */
     display: inline-block /* Display the list items inline-block */
-    font size 1.7em; /* Set the font size of the list items */
+    font size 1.5em; /* Set the font size of the list items */
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
 }
 
 nav li a{ /* add li a selector nested within the nav element */
@@ -63,4 +104,10 @@ nav li a{ /* add li a selector nested within the nav element */
 img{ 
     max-width: 100%; 
     display: block;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
 }
