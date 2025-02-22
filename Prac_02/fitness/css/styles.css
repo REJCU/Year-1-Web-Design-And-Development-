@@ -8,3 +8,13 @@ body{ /* Add the body selector */
     background-color: #ccc; /* Set the background colour */    
 } /* Closing brace for  the body selector */
 
+header{ /* Add the header selector */
+    width: 25%; /* Set the width of the header */
+    float: left; /* Add a declaration that sets a left float */
+} /* Closing brace for the header selector */
+
+nav{ 
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0; /* Sets a margin on all sides of the element: top-right-bottom-left */
+}
