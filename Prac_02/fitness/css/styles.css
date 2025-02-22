@@ -1,0 +1,10 @@
+/*
+Author: Ryan Ericson 
+Date: 22/02/2025
+File Name: styles.css
+*/
+
+body{ /* Add the body selector */
+    background-color: #ccc; /* Set the background colour */    
+} /* Closing brace for  the body selector */
+
