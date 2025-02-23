@@ -12,11 +12,12 @@ body, header, nav, main, footer, h1, div, img, ul {
 }
 
 body{ 
-    background-color: #c4cfdb;
+    background-color: #000;
 } 
 
-header{ 
-    width: 25%; 
+header{
+    
+    width: 20.5%; 
     float: left;
 }
 
@@ -36,8 +37,9 @@ h1{
 }
 
 nav{ 
-    width: 70%;
-    margin: 2em 0em 0 0; /* Sets a margin on all sides of the element: top-right-bottom-left */
+    width: - 100%;
+    margin: 0% 0em 0 0; /* Sets a margin on all sides of the element: top-right-bottom-left */;
+    float: left; 
 }
 
 nav ul{ /* add the ul selector nested within the a nav element */
@@ -45,6 +47,10 @@ nav ul{ /* add the ul selector nested within the a nav element */
     text-align: center; /* Align the unordered list to the right */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    background-color: #550b0b;
+    padding: 0.5em 0;
+    font-size: large;
+    padding-left: 10 9em;
 }   
 
 nav li{ /* add li selectoir nested within the nav element */
@@ -65,21 +71,37 @@ nav li a{ /* add li a selector nested within the nav element */
     text-decoration: none; /* Remove the underline from the text */
 }
 
-footer p{ 
+nav div ul p { 
+    font-size: 1em;
+    text-align: bottom;
+    color: #fde404;
+    padding: 0 20em;
+    padding-top: 0 30em;
+}
+
+nav div ul p a{ 
+    color: #fde404; /* sets link color */
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+footer { 
     font-size: 0.75em;
     text-align: center;
-    color: #000;
+    background-color: #000;
     padding: 0 1em;
 }
 
-footer p a{ 
-    color: #fff; /* sets link color */
+footer p { 
+    color: #e8e8e9; /* sets link color */
     text-decoration: none;
 }
 
 a { 
-    color: #000; 
+    color: #ffffff; 
     text-decoration: none; 
+
 }
 
 p{ 
@@ -88,16 +110,19 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img{ 
-    max-width: 100%; 
+
+
+header img{ 
+    max-width: 55%; 
     display: block;
 }
 
 #tips{
-    background-color: #e8e8e9;
     padding: 0.5% 1% 2% 0;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
 }
