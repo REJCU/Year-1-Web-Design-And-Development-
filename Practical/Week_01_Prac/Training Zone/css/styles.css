@@ -110,8 +110,6 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 header img{ 
     max-width: 55%; 
     display: block;
@@ -125,4 +123,38 @@ header img{
     margin-bottom: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+}
+
+#space{
+    color: #550b0b;
+}
+
+#contact{
+    align-content: center;   
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#health{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#health p a{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #550b0b;
+}
+
+.action {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #550b0b;
+}
+
+div img{ 
+    max-width: 50%; 
+    display: block;
 }
