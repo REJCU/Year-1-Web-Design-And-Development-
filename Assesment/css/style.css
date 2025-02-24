@@ -1,0 +1,12 @@
+/*
+Author: Ryan Ericson 
+Date: 22/02/2025
+File Name: styles.css
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
