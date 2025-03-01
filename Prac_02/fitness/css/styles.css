@@ -62,27 +62,24 @@ main{
 }
 
 #weights, #cardio, #training { 
-    width: 29%;
-    float: left;
     margin: 0 2%;
-    color: #f2f2f2;
 }
 
-#exercises{ 
-    clear: left;
+/* #exercises{  */
+    /* clear: left;
     border-top: #000;
     border-bottom: 1px solid #000;
     background-color: #f2f2f2;
-    padding: 1% 2%;
-}
+    padding: 1% 2%; */
+/* } */
 
-#exercises dt{ 
-    font-weight: bold;
-}
+/* #exercises dt{  */
+    /* font-weight: bold; */
+/* } */
 
-#exercises dd{ 
-    padding: 0.5% 1% 2% 0;
-}
+/* #exercises dd{  */
+  /* padding: 0.5% 1% 2% 0; */
+/* } */ 
 
 #contact{
     align-content: center;   
@@ -146,4 +143,8 @@ img{
    
 .tablet-desktop {
     display: none;
+} 
+
+.round {
+    border-radius: 8px;
 } 
