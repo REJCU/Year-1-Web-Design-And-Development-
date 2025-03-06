@@ -15,46 +15,71 @@ body{ /* Add the body selector */
     background-color: #000; /* Set the background colour */    
 } /* Closing brace for  the body selector */
 
-header{ /* Add the header selector */
-    width: 25%; /* Set the width of the header */
-    float: left; /* Add a declaration that sets a left float */
-} /* Closing brace for the header selector */
+/* Style rules for mobile viewport */
+header{ 
+    position: -webkit-sticky
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px; 
+}
+
+header img{ 
+    margin: 0 auto;
+}
 
 nav{ 
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0; /* Sets a margin on all sides of the element: top-right-bottom-left */
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 main{
     clear: left; /* Clear a float to the left */
     background-color: #fff;
     padding: 2%;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+   
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours{
+    margin-left: 10%;
 }
 
 #weights, #cardio, #training { 
-    width: 29%;
-    float: left;
     margin: 0 2%;
-    color: #f2f2f2;
 }
 
-#exercises{ 
-    clear: left;
+/* #exercises{  */
+    /* clear: left;
     border-top: #000;
     border-bottom: 1px solid #000;
     background-color: #f2f2f2;
-    padding: 1% 2%;
-}
+    padding: 1% 2%; */
+/* } */
 
-#exercises dt{ 
-    font-weight: bold;
-}
+/* #exercises dt{  */
+    /* font-weight: bold; */
+/* } */
 
-#exercises dd{ 
-    padding: 0.5% 1% 2% 0;
-}
+/* #exercises dd{  */
+  /* padding: 0.5% 1% 2% 0; */
+/* } */ 
 
 #contact{
     align-content: center;   
@@ -80,26 +105,24 @@ footer p a{
 
 nav ul{ /* add the ul selector nested within the a nav element */
     list-style-type: none; /* Remove the bullet marker */
-    margin: 0; /* Remove the margin */
-    text-align: right; /* Align the unordered list to the right */
+    text-align: center; /* Align the unordered list to the right */
 }
 
 nav li{ /* add li selectoir nested within the nav element */
-    display: inline-block /* Display the list items inline-block */
-    font size 1.5em; /* Set the font size of the list items */
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #fff; 
 }
 
 nav li a{ /* add li a selector nested within the nav element */
     display: block;
-    color: #fff; /* Set the colour of the text */
-    text-align: center; /* Align the text to the center */
-    padding-top: 0.5em; /* Add padding to the top of the text */
-    padding-bottom: 0.5em; /* Add padding to the bottom of the text */
-    padding-left: 1em; /* Add padding to the left of the text */
-    padding-right: 1em; /* Add padding to the right of the text */
-    text-decoration: none; /* Remove the underline from the text */
+    color: #fff; 
+    text-align: center; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    padding-left: 1em; 
+    padding-right: 1em; 
+    text-decoration: none; 
 }
 
 img{ 
@@ -112,3 +135,16 @@ img{
     color: #666600;
     font-weight: bold;
 }
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+   
+.tablet-desktop {
+    display: none;
+} 
+
+.round {
+    border-radius: 8px;
+} 
