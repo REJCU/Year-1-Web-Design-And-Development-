@@ -12,8 +12,22 @@ body, header, nav, main, footer, h1, div, img, ul {
 }
 
 
+
+
 main img{
     max-width: 10%;
     display: block;
     
 }
+
+.mobile {
+    display: block;
+}
+   
+.tablet-desktop {
+    display: none;
+} 
+
+.round {
+    border-radius: 8px;
+} 
