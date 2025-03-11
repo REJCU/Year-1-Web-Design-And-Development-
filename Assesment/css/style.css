@@ -15,21 +15,51 @@ p{
     color: #114278;
 }
 
-header{
+/* header{
     background-color: #52bbeb;
     padding: 0.5%;
     text-align: center;
 
-}
+} */
 
 nav{
     background-color: #f2281d;
     padding: 1%;
     margin-bottom: 1%;
-    position: fixed;
+    display: flex;
+    width: auto;
+    padding: auto;
+    border: 5px solid black;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 
+nav a p{
+    font-size: large;
+    color: #000;
+    width: 7em;
+    background-color: #52bbeb;    
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    list-style-type: none;
+     
+}
+
+nav li{
+    display: inline;
+    background-color: #52bbeb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.booking-corner{
+    text-decoration: none;
+}
 
 footer{
     display: block;
@@ -69,7 +99,8 @@ main img{
 
 .round {
     border-radius: 8px;
-} 
+}
+
 
 table, th, td {
     border:1px solid black;
