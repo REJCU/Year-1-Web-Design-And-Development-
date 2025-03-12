@@ -15,12 +15,11 @@ p{
     color: #114278;
 }
 
-/* header{
+header{
     background-color: #52bbeb;
     padding: 0.5%;
     text-align: center;
-
-} */
+}
 
 nav{
     background-color: #f2281d;
@@ -46,8 +45,8 @@ nav ul{
     list-style-type: none;
     text-align: center;
     list-style-type: none;
-    width: 50%;
-    
+    width: 95%;
+
 }
 
 nav li{
@@ -62,7 +61,10 @@ nav li a{
     color: #fff; 
     text-align: center; 
     text-decoration: none;
-    padding: 14px 16px; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    padding-left: 1em; 
+    padding-right: 1em;  
 }
 
 .booking-corner{
@@ -114,12 +116,23 @@ table, th, td {
     border:1px solid black;
 }
 
-.cloud{
-
-}
-
 .title-action{
     font-size: 1.35em;
     color: #114278;
     font-weight: bold;
+}
+
+#vertical-nav{
+    text-decoration: none;
+    background-color: #114278;
+}
+
+.cloud{
+    float: left;
+    background-color: #f2281d;
+}
+
+.cloud-right{
+    float: right;
+    background-color: #fff;
 }
