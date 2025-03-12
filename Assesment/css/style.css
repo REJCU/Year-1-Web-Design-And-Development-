@@ -33,28 +33,36 @@ nav{
     font-family: "Roboto Condensed", sans-serif;
 }
 
-
 nav a p{
     font-size: large;
     color: #000;
     width: 7em;
-    background-color: #52bbeb;    
+    background-color: #52bbeb; 
+    text-align: center;   
+     
 }
 
 nav ul{
     list-style-type: none;
     text-align: center;
     list-style-type: none;
-     
+    width: 50%;
+    
 }
 
 nav li{
-    display: inline;
     background-color: #52bbeb;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    
+    border: 1px solid black;
+}
+
+nav li a{
+    display: block;
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none;
+    padding: 14px 16px; 
 }
 
 .booking-corner{
@@ -108,4 +116,10 @@ table, th, td {
 
 .cloud{
 
+}
+
+.title-action{
+    font-size: 1.35em;
+    color: #114278;
+    font-weight: bold;
 }
