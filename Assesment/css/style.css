@@ -89,9 +89,14 @@ footer a{
 }
 
 main img{
-    max-width: 10%;
-    display: block;
-    
+    max-width: 100%;
+    display: block;    
+}
+
+div a{
+    text-decoration: none;
+    color: #114278;
+    font-size: x-large;
 }
 
 .action{
@@ -135,4 +140,17 @@ table, th, td {
 .cloud-right{
     float: right;
     background-color: #fff;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
 }
