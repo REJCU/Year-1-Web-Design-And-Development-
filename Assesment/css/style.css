@@ -54,6 +54,7 @@ nav li{
     text-align: center;
     text-decoration: none;
     border: 1px solid black;
+    list-style: none;
 }
 
 nav li a{
@@ -66,9 +67,11 @@ nav li a{
     padding-bottom: 0.5em; 
     padding-left: 1em; 
     padding-right: 1em;  
+    list-style: none;
 }
 
 main ul li{
+    display: block;
     background-color:#f2281d;
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
@@ -76,6 +79,7 @@ main ul li{
     padding-right: 1em;
     border-radius: 8px;
     text-align: center;
+    list-style: none;
 }
 
 main ul li a{
@@ -185,3 +189,21 @@ table, th, td {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.highlight-footer{
+    color: #fff;
+    font-size: x-large;
+}
+
+.footer-time{
+    color: #f2281d;
+}
+
+#across{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.border{
+    border:10px solid black;
+}
