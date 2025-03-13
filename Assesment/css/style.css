@@ -111,6 +111,12 @@ footer a{
     text-align: center;
 }
 
+footer p a{
+    text-decoration: none;
+    color: #114278;
+    font-size: 1.15em;
+}
+
 main img{
     max-width: 100%;
     display: block;    
@@ -121,6 +127,13 @@ div a{
     color: #114278;
     font-size: x-large;
 }
+h2{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .action{
     font-size: medium;
@@ -170,7 +183,6 @@ table, th, td {
     background-color: #f2281d;
 }
 
-
 .container {
     position: relative;
     text-align: center;
@@ -207,3 +219,17 @@ table, th, td {
 .border{
     border:10px solid black;
 }
+
+.center{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-action{
+    font-size: 1.35em;
+    color: #114278;
+    font-weight: bold;
+}
+
