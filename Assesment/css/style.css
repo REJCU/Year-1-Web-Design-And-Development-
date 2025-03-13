@@ -16,13 +16,12 @@ p{
 }
 
 header{
-    background-color: #52bbeb;
     padding: 0.5%;
     text-align: center;
 }
 
 nav{
-    background-color: #f2281d;
+    background-color: #114278;;
     padding: 1%;
     margin-bottom: 1%;
     display: flex;
@@ -31,6 +30,8 @@ nav{
     border: 5px solid black;
     font-family: "Roboto Condensed", sans-serif;
 }
+
+header .centered
 
 nav a p{
     font-size: large;
@@ -46,7 +47,6 @@ nav ul{
     text-align: center;
     list-style-type: none;
     width: 95%;
-
 }
 
 nav li{
@@ -58,13 +58,29 @@ nav li{
 
 nav li a{
     display: block;
-    color: #fff; 
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
     text-align: center; 
     text-decoration: none;
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
     padding-left: 1em; 
     padding-right: 1em;  
+}
+
+main ul li{
+    background-color:#f2281d;
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    padding-left: 1em; 
+    padding-right: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+main ul li a{
+    color: #000;
+    text-decoration: none;
 }
 
 .booking-corner{
@@ -80,10 +96,13 @@ footer{
 
 footer p{
     color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
 }
 
 footer a{
-    text-decoration: none;
+    text-decoration:underline;
     color: #000;
     text-align: center;
 }
@@ -116,6 +135,12 @@ div a{
     border-radius: 8px;
 }
 
+.img-round{
+    border-radius: 8px;
+    width: 40%;
+    float: right;
+}
+
 
 table, th, td {
     border:1px solid black;
@@ -127,20 +152,20 @@ table, th, td {
     font-weight: bold;
 }
 
-#vertical-nav{
-    text-decoration: none;
-    background-color: #114278;
+.title-number{
+    font-size: 1.35em;
+    color: #f2281d;
+    font-weight: bold;
+}
+#title-border{
+    background-color: #fff;
 }
 
-.cloud{
-    float: left;
+#vertical-nav{
+    text-decoration: none;
     background-color: #f2281d;
 }
 
-.cloud-right{
-    float: right;
-    background-color: #fff;
-}
 
 .container {
     position: relative;
@@ -154,3 +179,9 @@ table, th, td {
     left: 50%;
     transform: translate(-50%, -50%);;
 }
+
+.announcements{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
