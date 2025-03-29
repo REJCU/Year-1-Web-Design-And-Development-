@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Example</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Simple Seminar Survey</h1>
+    <form name="form1" method="get">
+    <fieldset>
+        <p>Personal</p>
+        <p>Name <input type="text" name="name" id="name"></p>
+        <p>Email: <input type="email" name="email"></p>
+        Try this: <input type="password">
+    </fieldset>
+    <fieldset>
+        <p>Subjects</p>
+        <p>Mode: <label><input type="radio" name="mode" value="internal" id="internal">Internal</label>
+            <input type="radio" name="mode" value="external" id="external">External
+        </p>
+        <p><input type="submit" name="submit" id="submit" value="Submit"></p>
+        <p id="message"></p>
+    </fieldset>
+    </form>
+</body>
+
+</html>
