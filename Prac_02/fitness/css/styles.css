@@ -28,6 +28,24 @@ header img{
     margin: 0 auto;
 }
 
+/* Style rules for hamburger menu */
+.mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+   }
+   
+.mobile-nav a.menu-icon{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 nav{ 
     padding: 1%;
     margin-bottom: 1%;
@@ -86,7 +104,19 @@ main{
 
 
 /* Tablet Viewport: Style rules for nav area */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+   
+nav ul{
+    list-style-type: none;
+    text-align: center;
+} 
+
 nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif; 
     border-top: none;
     display: inline-block;
     border-right: 1px solid #fff;
@@ -98,6 +128,9 @@ nav li {
    
     nav li a {
     padding: 0.1em 0.75em;
+    display: block;
+    color: #fff; 
+    text-align: center; 
     } 
 
 }
@@ -206,14 +239,12 @@ nav li{ /* add li selectoir nested within the nav element */
 }
 
 nav li a{ /* add li a selector nested within the nav element */
-    display: block;
-    color: #fff; 
-    text-align: center; 
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
     padding-left: 1em; 
     padding-right: 1em; 
     text-decoration: none; 
+
 }
 
 img{ 
@@ -227,12 +258,13 @@ img{
     font-weight: bold;
 }
 
-/* Show mobile class, hide tablet-desktop class */
-.mobile {
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile, mobile-nav, .mobile-nav a.menu-icon{
     display: block;
+    pos
 }
    
-.tablet-desktop {
+.tablet-desktop, #menu-links{
     display: none;
 } 
 
