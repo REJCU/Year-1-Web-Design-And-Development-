@@ -5,28 +5,41 @@
     <title>Forwad Fitness Club</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles(2).css">
+    <script src="script.js"></script>
 </head>
 <body>
 
     <div id="container">
-
-    <!--Use the header area for the website name or logo -->
-    <header>
-        
-
-        <a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo">
-    </header></a>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="about.html"> About</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="classes.html">Classes</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="nutrition.html">Nutrition</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="contactus.html">Contact Us</a> &nbsp; &#9457; &nbsp;</li>
-        </ul>
+        <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="classes.html">Classes</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
     </nav>
+</div>
+
+<header>
+    <a><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club Logo" ></a>
+</header>
+
+<nav class="tablet-desktop">
+    <ul>
+        <li><a href="index.html">Home</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="about.html"> About</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="classes.html">Classes</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="nutrition.html">Nutrition</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="contactus.html">Contact Us</a> &nbsp; &#9457; &nbsp;</li>
+    </ul>
+</nav>
+<!-- Tablet, Desktop, Nav -->
 
     <main>
 
@@ -39,6 +52,54 @@
             <h3>Visit us at: 1275 Channel
                 CENTER Street, Boston, MA 02210</h3>
         </div>    
+        <div id="form">
+            <h2>Complete the form below to begin your free trial.</h2>
+            <form name="myForm" action="Form/submitted.html" onsubmit="return
+    validateForm()">
+                <fieldset>
+                <legend>Customer Information</legend>
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName">
+                
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName">
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <p>I would like more information about:</p>
+                
+                <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group
+                Fitness">Group Fitness</label>
+                
+                <label for="prtrain"><input type="checkbox" name="interest" id="prtrain"
+                value="Personal Training">Personal Training</label>
+                
+                <label for="nutr"><input type="checkbox" name="interest" id="nutr"
+                value="Nutrition">Nutrition</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Referral Source</legend>
+                <label for="reference">How did you find us?</label>
+                <select name="reference" id="reference">
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="google">Google</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                    </select>
+
+                    <label for="questions"> Questions?</label>
+                    <textarea id="questions" name="questions" rows="5" cols="35"></textarea> 
+            </fieldset>
+            <input type="submit" id="submit" value ="Submit" class="btn">
+
+            </form>
+
+        </div>
+
+
 
     </main>
 

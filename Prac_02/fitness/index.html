@@ -7,6 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script> 
+
 </head>
 <body>
     <!--Use the header area for the website name or logo -->
@@ -15,11 +17,27 @@
      with structured navigation and mobile-friendly features. Fixing minor spelling issues, redundant tags, 
      and cleaning up image references will improve clarity and maintainability -->
      
+    <div id="container">
+            <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="classes.html">Classes</a>
+                <a href="nutrition.html">Nutrition</a>
+                <a href="contactus.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+    </div>
+
     <header>
         <a><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club Logo" ></a>
     </header>
     
-    <nav>
+    <nav class="tablet-desktop">
         <ul>
             <li><a href="index.html">Home</a> &nbsp; &#9457; &nbsp;</li>
             <li><a href="about.html"> About</a> &nbsp; &#9457; &nbsp;</li>
@@ -28,6 +46,7 @@
             <li><a href="contactus.html">Contact Us</a> &nbsp; &#9457; &nbsp;</li>
         </ul>
     </nav>
+    <!-- Tablet, Desktop, Nav -->
 
 
     <!-- Hero Image -->
@@ -36,6 +55,7 @@
     </div>
 
     <main>
+
         <div class="mobile">
 
             <p>Welcome to Forward Fitness Club. Our mission is to help our

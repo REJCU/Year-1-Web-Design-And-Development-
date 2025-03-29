@@ -9,25 +9,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script> 
 </head>
 <body>
 
     <div id="container">
-
-    <!--Use the header area for the website name or logo -->
-    <header>
-        <a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297">
-    </header></a>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="about.html"> About</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="classes.html">Classes</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="nutrition.html">Nutrition</a> &nbsp; &#9457; &nbsp;</li>
-            <li><a href="contactus.html">Contact Us</a> &nbsp; &#9457; &nbsp;</li>
-        </ul>
+        <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="classes.html">Classes</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
     </nav>
+</div>
+
+<header>
+    <a><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club Logo" ></a>
+</header>
+
+<nav class="tablet-desktop">
+    <ul>
+        <li><a href="index.html">Home</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="about.html"> About</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="classes.html">Classes</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="nutrition.html">Nutrition</a> &nbsp; &#9457; &nbsp;</li>
+        <li><a href="contactus.html">Contact Us</a> &nbsp; &#9457; &nbsp;</li>
+    </ul>
+</nav>
+<!-- Tablet, Desktop, Nav -->
 
     
     <main>
