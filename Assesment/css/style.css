@@ -338,6 +338,8 @@ div img{
     margin-right: auto;
 }
 
+
+
 .booking-container div {
 
 }
@@ -350,4 +352,8 @@ div img{
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.image-reduction{
+    height: 50%;
 }
