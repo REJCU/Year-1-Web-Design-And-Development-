@@ -77,7 +77,6 @@ nav li a{
     list-style: none;
 }
 
-
 main ul li a{
     color: #000;
     text-decoration: none;
@@ -356,4 +355,35 @@ div img{
 
 .image-reduction{
     height: 50%;
+}
+
+.round-reduction {
+    border-radius: 8px;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-emphasis p{
+    color: #fff;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) { }
+
+/* mobile query */
+@media screen and (min-width: 375px) {
+    
+    img {
+        width: 100%;
+        
+    }
+
 }
