@@ -221,7 +221,7 @@ div img{
 }
 
 .background-announcements{
-    display: block;
+    display: flex;
     background-color:#f2281d;
     padding-top: 3em; 
     padding-bottom: 3em; 
@@ -236,7 +236,6 @@ div img{
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    background-color:#000;
     border-radius: 25px;
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
@@ -369,6 +368,12 @@ div img{
     font-weight: bold;
 }
 
+hr {
+    padding: 10px;
+    background-color: #f2281d;
+    border: #f2281d;
+}
+
 
 
 /* Media Query for Desktop Viewport */
@@ -404,12 +409,23 @@ div img{
         }
     
 
-
     .grid-layout div {
         display: grid;
         grid-template-columns: auto auto;
         gap: 20px;
         padding: 10px;
     }
-
+    
+    .background-announcements {
+        display: block;
+        background-color:#f2281d;
+        padding-top: 3em; 
+        padding-bottom: 3em; 
+        padding-left: 10em; 
+        padding-right: 5em;
+        border-radius: 8px;
+        text-align: center;
+        list-style: none;
     }
+    }
+
