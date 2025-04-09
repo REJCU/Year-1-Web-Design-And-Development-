@@ -374,11 +374,24 @@ hr {
     border: #f2281d;
 }
 
-
+.nonstandard-image-reduction {
+    height: 60%;
+    width: 80%;
+}
 
 /* Media Query for Desktop Viewport */
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 1024px) {
 
+    .image-reduction{
+        height: 60%;
+    }
+
+    .center{
+        width: 75%;
+        display: block;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 
 }
 
@@ -399,6 +412,14 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .text-center{
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Roboto Condensed", sans-serif;
     }
 
     .grid-layout {
@@ -457,7 +478,17 @@ hr {
         background-color: #f2281d;
         font-family: "Roboto Condensed", sans-serif;
         font-size: medium;
+    }
 
+    .image-reduction{
+        height: 60%;
+    }
+
+    .center{
+        width: 75%;
+        display: block;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     
 }
