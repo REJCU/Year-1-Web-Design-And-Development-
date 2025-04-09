@@ -442,21 +442,13 @@ hr {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
         border-radius: 25px;
-        padding-top: 0.5em; 
-        padding-bottom: 0.5em; 
-        padding-left: 0.5em; 
-        padding-right: 0.5em;
+        display: block;
 }
     
     .background-announcements {
         display: block;
         background-color:#f2281d;
-        padding-top: 3em; 
-        padding-bottom: 3em; 
-        padding-left: 10em; 
-        padding-right: 5em;
-        border-radius: 8px;
-        text-align: center;
+        text-align: left;
         list-style: none;
     }
     }
