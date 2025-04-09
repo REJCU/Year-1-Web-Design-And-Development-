@@ -443,6 +443,10 @@ hr {
         font-size: 25px;
         border-radius: 25px;
         display: block;
+        padding-top: 0.5em; 
+        padding-bottom: 0.5em; 
+        padding-left: 0.5em; 
+        padding-right: 0.5em;
 }
     
     .background-announcements {
@@ -450,7 +454,11 @@ hr {
         background-color:#f2281d;
         text-align: left;
         list-style: none;
-    }
+        padding-top: 3em; 
+        padding-bottom: 3em; 
+        padding-left: 10em; 
+        padding-right: 5em;
+        border-radius: 8px;
     }
 
 /* Tablet query */
