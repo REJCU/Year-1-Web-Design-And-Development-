@@ -337,6 +337,9 @@ div img{
     padding: 50px;
 }
 
+
+
+
 .booking-center{
     width: 50%;
     display: flex;
@@ -387,15 +390,22 @@ hr {
     width: 80%;
 }
 
+.staff-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 50px;
+}
+
+
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     .image-reduction{
         height: 60%;
     }
 
     .center{
-        width: 75%;
+        width: 90%;
         display: block;
         margin-left: 25px;
         margin-right: 25px;
@@ -409,6 +419,10 @@ hr {
     img {
         width: 100%;
         
+    }
+
+    .staff-container{
+        display: block;
     }
 
     .booking-container {
@@ -476,8 +490,7 @@ hr {
 }
 
 /* Tablet query */
-@media screen and (min-width: 768px) and (max-width: 1024px){
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .grid-layout {
         display: grid;
@@ -513,7 +526,7 @@ hr {
     }
 
     .center{
-        width: 75%;
+        width: 90%;
         display: block;
         margin-left: 25px;
         margin-right: 25px;
