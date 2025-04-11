@@ -57,54 +57,35 @@
                 receptionist will assist you.</li>
         </ul>
     </div>
+
     <div>
+        <hr class="clear-hr">
+    </div>
+
+    <div >
     <h2>Limited Slots Available!</h2>
         <p class="center">Don't miss out on this fantastic opportunity to get a free dental checkup. Book your appointment today
             and take the first step towards a healthier smile!
             We look forward to seeing you on Saturday, 5th July!</p>
-    </div>
-
-    <div >
+    <div class="design-form">
     <form name="myForm" action="confirmationform.html" onsubmit="return
     validateForm()">
         Name: <input type="text" name="name" placeholder="John Doe" required>
         Email: <input type="text" name="email" placeholder="youremail@email.com" required>
         Phone: <input type="text" name="phone"  required>
-        Date: <input type="date" id="check-in" name="check-in" required>
         Purpose: <input type="text" name="info" required>
+        Date: <input type="date" id="check-in" name="check-in" required>
+        <label for="location">Location:</label>
+        <select name="location" id="location">
+            <option value="33 Fantail Street">33 Fantail Street</option>
+        </select>
+        
         <input type="submit" value="Submit">
     </form>
     </div>
-
+</div>
 </div>
 
-    <h1 class="center">Booking Information</h2>
-    <table class="table-center">
-        <tr>
-            <th>Street</th>
-            <th>Town</th>
-            <th>State</th>
-            
-        </tr>
-        <tr>
-            <td>33 Fantail Street</td>
-            <td>Razole</td>
-            <td>Queensland</td>
-        </tr>
-    </table>
-
-    <table class="table-center">
-        <tr>
-            <th>Day</th>
-            <th>Month</th>
-            <th>Booking</th>
-        </tr>
-        <tr>
-            <td >16</td>
-            <td>03</td>
-            <td>Confirm Booking &#9745; &#9746;</td>
-        </tr>
-    </table>
 </main>
 
 <footer> <br>

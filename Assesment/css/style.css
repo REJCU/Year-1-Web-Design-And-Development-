@@ -323,24 +323,13 @@ div img{
     padding: 10px;
 }
 
-/* .services-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-    padding: 10px;
-    background-color: #f2281d;
-} */
-
 .booking-container{
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto auto ;
     padding: 50px;
 }
 
-
-
-
-.booking-center{
+.booking-center {
     width: 50%;
     display: flex;
     margin-left: auto;
@@ -396,6 +385,44 @@ hr {
     padding: 50px;
 }
 
+input[type=text] , input[type=date]{
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 90%;
+}
+
+input[type=submit]{
+    background-color: #114278;
+    color: #fff;
+    margin-top: 5%;
+    border-radius: 8px;
+    width: 90%;
+  }
+
+  select {
+    border-radius: 8px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 90%;
+  }
+
+  label {
+    width: 90%;
+  }
+
+
+.design-form {
+    background-color: #52bbeb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.clear-hr {
+    background-color: #fff;
+    border: #fff;
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1025px) {
@@ -418,7 +445,6 @@ hr {
     
     img {
         width: 100%;
-        
     }
 
     .staff-container{
