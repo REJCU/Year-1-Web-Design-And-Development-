@@ -122,8 +122,9 @@ div a{
     color: #114278;
     font-size: x-large;
 }
+
 h2{
-    width: 50%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -424,6 +425,18 @@ input[type=submit]{
     border: #fff;
 }
 
+.center-book{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52bbeb;
+    border:2px solid black;
+    border-radius: 8px;
+    gap: 30px;
+    padding: 20px;
+}
+
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1025px) {
 
@@ -513,6 +526,24 @@ input[type=submit]{
         border-radius: 1px;
     }
 
+    .center-book{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border:10px solid #fff;
+        border-radius: 8px;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    h2{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Tablet query */
